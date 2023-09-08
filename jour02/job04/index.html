@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script defer src="script.js"></script>
+    <title>Document</title>
+</head>
+<body>
+    <form id="form-add-student" action="" method="post">
+        <label for="student-mail">Email :</label>
+        <input type="email" name="student-mail" id="student-mail" required><br><br>
+
+        <label for="student-fullname">Nom complet :</label>
+        <input type="text" name="student-fullname" id="student-fullname" required><br><br>
+
+        <label for="student-gender">Genre :</label>
+        <select name="student-gender" id="student-gender">
+            <option value="homme">Homme</option>
+            <option value="femme">Femme</option>
+            <option value="autre">Autre</option>
+        </select><br><br>
+
+        <label for="student-grade">Promo :</label>
+        <select name="student-grade" id="student-grade">
+            <option value="promo1">Promo 1</option>
+            <option value="promo2">Promo 2</option>
+            <option value="promo3">Promo 3</option>
+        </select><br><br>
+
+        <label for="student-birthdate">Date de naissance :</label>
+        <input type="date" name="student-birthdate" id="student-birthdate" required><br><br>
+
+        <input type="submit" id="submit-btn" value="Ajouter l'étudiant">
+    </form>
+</body>
+</html>
